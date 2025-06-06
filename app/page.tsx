@@ -4,6 +4,9 @@ import HowItWorksSection from "@/components/how-it-works-section"
 import WhyGlorifaiSection from "@/components/why-glorifai-section"
 import BibleVerseSection from "@/components/bible-verse-section"
 import CtaSection from "@/components/cta_section"
+import PricingSection from "@/components/pricing"
+import QuizSection from "@/components/quiz"
+import NewsletterSection from "@/components/newsletter"
 import Footer from "@/components/footer"
 
 export default function LandingPage() {
@@ -12,10 +15,13 @@ export default function LandingPage() {
       <Navbar />
       <main>
         <HeroSection />
-        <HowItWorksSection />
         <WhyGlorifaiSection />
+        <QuizSection />
+        <HowItWorksSection />
         <BibleVerseSection />
         <CtaSection />
+        <PricingSection />
+        <NewsletterSection />
       </main>
       <Footer />
     </div>

@@ -49,7 +49,7 @@ export default function HowItWorksSection() {
   ]
 
   return (
-    <section id="how-it-works" ref={sectionRef} className="py-20 bg-[#F8FAFC]">
+    <section id="how-it-works" ref={sectionRef} className="py-12 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">

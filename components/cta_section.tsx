@@ -1,6 +1,8 @@
 // components/CtaSection.tsx
 
 import Image from 'next/image';
+import { Button } from "@/components/ui/button"
+
 
 export default function CtaSection() {
   return (
@@ -17,24 +19,11 @@ export default function CtaSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-            <button className="bg-[#1c6bfe] text-white px-6 sm:px-12 md:px-16 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition">
-              🎧 Try GlorifAI – It’s Free
-            </button>
+            <a href="https://apps.apple.com/pl/app/glorifai-daily-prayers/id6743354836">
+            <Button className="rounded-full px-8 py-6 text-lg">Try GlorifAI</Button></a>
+            <p className="mt-3 text-sm text-gray-500">No credit card required</p>
 
-            {/* Optional: Waitlist input */}
-            <form className="flex w-full sm:w-auto">
-              <input
-                type="email"
-                placeholder="Your email..."
-                className="px-4 py-3 rounded-l-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#1c6bfe] w-full sm:w-64"
-              />
-              <button
-                type="submit"
-                className="bg-[#1c6bfe] text-white px-5 py-3 rounded-r-full hover:bg-blue-700 transition"
-              >
-                Notify Me
-              </button>
-            </form>
+           
           </div>
         </div>
 

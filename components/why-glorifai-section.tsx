@@ -58,7 +58,7 @@ export default function WhyGlorifaiSection() {
   ]
 
   return (
-    <section id="why-glorifai" ref={sectionRef} className="py-24 relative overflow-hidden">
+    <section id="why-glorifai" ref={sectionRef} className="py-12 relative overflow-hidden">
      
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

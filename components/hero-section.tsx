@@ -16,7 +16,8 @@ export default function HeroSection() {
               and dreams.
             </p>
             <div className="mt-8 sm:mt-10">
-              <Button className="rounded-full px-8 py-6 text-lg">Try GlorifAI</Button>
+              <a href="https://apps.apple.com/pl/app/glorifai-daily-prayers/id6743354836">
+              <Button className="rounded-full px-8 py-6 text-lg">Try GlorifAI</Button></a>
               <p className="mt-3 text-sm text-gray-500">No credit card required</p>
             </div>
           </div>
