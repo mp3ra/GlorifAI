@@ -13,6 +13,7 @@ export default function Footer() {
               Connecting you with God through personalized AI-powered prayers and Bible meditations.
             </p>
           </div>
+         {/*
           <div>
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Resources</h3>
             <ul className="mt-4 space-y-4">
@@ -33,18 +34,15 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+          */}
           <div>
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <Link href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <Link href="/privacy-policy" className="text-base text-gray-500 hover:text-gray-900">
                   Privacy
                 </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-base text-gray-500 hover:text-gray-900">
-                  Terms
-                </Link>
+              
               </li>
             </ul>
           </div>

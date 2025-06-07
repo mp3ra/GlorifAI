@@ -28,7 +28,7 @@ export default function QuizSection() {
             <Button className="rounded-full px-8 py-6 text-lg">✨ Start the Quiz</Button>
           </a>
         </div>
-
+              <div className="absolute top-0 -right-4 w-72 h-72 bg-sky-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"></div>
         {/* Right Side: Image */}
         <div className="md:w-1/2 flex justify-center">
           <div className="w-80 h-80 relative">

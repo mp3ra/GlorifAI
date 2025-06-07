@@ -7,7 +7,7 @@ import Image from "next/image"
 export const metadata: Metadata = {
   title: 'GlorifAI',
   description: 'Christian app that creates personalized audio prayers and Bible meditations using AI.',
-  generator: 'v0.dev',
+  generator: 'none',
 }
 
 export default function RootLayout({
